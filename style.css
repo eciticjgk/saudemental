@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+*{margin: 0; padding: 0%;}
+
+header{
+    background-color: #304268;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#carrinho{
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+#menudown{
+    position: absolute;
+    top: 40%;
+    transform: rotate(0deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+main{
+    position: absolute;
+    top: 125px;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+input[type = "checkbox"]{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    top: -300px;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+ul{
+    background-color: #d9e8f5;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type = "checkbox"]:checked~nav{
+    transform: translateY(420px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+input[type = "checkbox"]:checked~#menudown{
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+}
+
+hr{
+    border-color: black;
+}
+
+main img{
+    border-radius: 50%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #d9e8f5;
+}
+
+.imagem{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .3s;
+}
+
+.imagem-animada{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}

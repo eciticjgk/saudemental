@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Teste sua saúde mental</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/883/883039.png" type="image/x-icon">
+  <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        
+        <div id="progress_bar"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2>Questão 1</h2>
+  	  			<h3>Senti meu coração acelerado sem fazer nenhum esforço?</h3>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1> Sim, eu senti isso<br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=2> Já senti algumas vezes<br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=3> Não! Eu nunca senti isso.<br>
+  				  <div id="submit1" class="button">Próxima questão</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			 <div id="question-2">
+  				 <h2>Questão 2</h2>
+  				 <h3>Senti medo sem motivo?</h3>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Sim, já tive essa sensação<br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Já senti, mas não é frequente<br>
+  				 <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Não, nunca senti<br>
+  				 <div id="submit2" class="button">Próxima questão</div>
+           <div class="clearfix"></div>
+  			 </div>
+  			
+  			 <div id="question-3">	
+  				 <h2>Questão 3</h2>
+  				 <h3>Senti que a vida não tinha mais sentido?</h3>
+  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Sim, sinto isso constantemente<br>
+  				 <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Já senti, mas não sinto mais<br>
+  				 <input id="question-3-answer-c" type="radio" name="favelang" value="3"> Não. Literalmente nunca senti isso!<br>
+  				 <div id="submit3" class="button">Próxima questão</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Perdi a vontade de fazer coisas que antes gostava?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="1"> Sim, não sinto vontade de fazer coisas que gostava <br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="2"> Apenas algumas coisas<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="3"> Não<br>
+            <div id="submit4" class="button">Próxima questão</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Teve dificuldade de relaxar?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="1"> Sim, sempre é difícil relaxar<br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="2"> Dependendo da situação sim.<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="3"> Não!<br>
+            <div id="submit5" class="button">Próxima questão</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-6"> 
+            <h2>Esses dados NÃO são armazenados!</h2>
+            <h3>Sua pontuação foi: </h3>
+            <h1 id=printtotalscore></h1>
+            <p id=printscoreinfo></p>
+            <br>
+            <div id="voltar" class="button"><a href="index.html">Voltar</a></div>
+ 
+          </div>
+
+
+  				
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

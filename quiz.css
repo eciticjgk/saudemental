@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+
+.container {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  max-width: 1024px;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+
+.column {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #444444;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Barclaycard Co Lt', sans-serif;
+  color: #f26101;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+  color: #f26101;
+}
+
+h3 {
+  color: #304268;
+  font-size: 48px;
+}
+
+.questions_box {
+  background-color: #ffffff;
+  width: 700px;
+  height: 500px;
+  padding: 60px;
+  text-align: left;
+  border-radius: 3%;
+  box-shadow: 5px 5px 22px -8px #000000;
+  font-size: 30px;
+
+}
+
+.button {
+  font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+  float: right;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
+  padding: 10px 15px;
+  line-height: 18px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: baseline;
+  background: #f26101;
+  color: white;
+  text-decoration: none !important;
+  display: inline-block;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #f2610181 !important;
+  color: white;
+}
+
+#question-2, #question-3, #question-4, #question-5, #question-7, #question-8, #question-9, #question-10, #question-11,  #question-6{
+  display: none;
+}
+
+#progress_bar {
+  background-color: #d9e8f5;
+  width: 20%;
+  height: 10px;
+  transition: all 100ms ease-in-out;
+  border-radius: 8%;
+}
+
+#titulo{
+    color: #304269;
+}
+
+#voltar{
+  font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+  margin: 10px 0 0 0;
+  float: right;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
+  padding: 10px 15px;
+  line-height: 18px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: baseline;
+  background: #f26101;
+  color: white;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

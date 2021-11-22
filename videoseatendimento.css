@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+*{margin: 0; padding: 0%;}
+
+header{
+    background-color: #304268;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menudown{
+    position: absolute;
+    top: 40%;
+    transform: rotate(0deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+main{
+    position: relative;
+    top: 125px;
+    text-align: center;
+    align-items: center;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+input[type = "checkbox"]{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    top: -300px;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+ul{
+    background-color: #d9e8f5;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type = "checkbox"]:checked~nav{
+    transform: translateY(420px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+input[type = "checkbox"]:checked~#menudown{
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+hr{
+    border-color: black;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #d9e8f5;
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+}
+
+.estado{
+    background-color: #d9e8f5;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
